@@ -1,0 +1,136 @@
+Serial No,Name,Description,Stars,Forks,Last Commit,Repository URL
+1,notes,My learning notes.,64,18,2024-02-24T22:05:01Z,https://github.com/eoinkelly/notes
+2,webNBT,An HTML5 NBT-editor based on emscripten,225,40,2022-04-29T17:48:51Z,https://github.com/iRath96/webNBT
+3,spec,"WebAssembly specification, reference interpreter, and test suite.",3086,436,2024-06-03T22:45:04Z,https://github.com/WebAssembly/spec
+4,wasm-semantics,A Prototype Formal Semantics of WebAssembly in K,74,15,2024-06-11T19:21:30Z,https://github.com/runtimeverification/wasm-semantics
+5,testsuite,Mirror of the spec testsuite,177,54,2024-05-24T21:53:58Z,https://github.com/WebAssembly/testsuite
+6,wasm-aot-prototype,AOT compiler and static runtime for WebAssembly,36,3,2021-08-26T18:39:20Z,https://github.com/dschuff/wasm-aot-prototype
+7,binaryen,Optimizer and compiler/toolchain library for WebAssembly,7200,713,2024-06-12T01:12:07Z,https://github.com/WebAssembly/binaryen
+8,wasm,Haskell compiler infastructure for WebAssembly,357,14,2017-12-24T09:54:51Z,https://github.com/sdiehl/wasm
+9,WasmExplorer,,331,50,2018-03-02T23:22:38Z,https://github.com/mbebenita/WasmExplorer
+10,wasm,WebAssembly decoder & disassembler library,257,44,2021-07-20T19:24:14Z,https://github.com/athre0z/wasm
+11,heapviz,Visualization tool for Chrome heap and allocation profiles,47,8,2018-04-18T07:05:44Z,https://github.com/studio-lagier/heapviz
+12,riffshare,Music creation and collaboration platform,43,6,2022-07-23T07:09:32Z,https://github.com/surikov/riffshare
+13,wasm-examples,WebAssembly Examples,222,56,2019-06-25T04:24:07Z,https://github.com/Hanks10100/wasm-examples
+14,webassembly-examples,Code examples that accompany the MDN WebAssembly documentation — see https://developer.mozilla.org/en-US/docs/WebAssembly. ,1096,252,2024-06-07T09:35:17Z,https://github.com/mdn/webassembly-examples
+15,gc,Branch of the spec repo scoped to discussion of GC integration in WebAssembly,941,65,2024-06-03T15:15:23Z,https://github.com/WebAssembly/gc
+16,threads,Threads and Atomics in WebAssembly,677,55,2024-06-11T06:36:24Z,https://github.com/WebAssembly/threads
+17,simd,Branch of the spec repo scoped to discussion of SIMD in WebAssembly ,525,50,2021-11-16T17:37:07Z,https://github.com/WebAssembly/simd
+18,exception-handling,Proposal to add exception handling to WebAssembly,147,33,2024-06-11T00:28:30Z,https://github.com/WebAssembly/exception-handling
+19,blake2b-wasm,Blake2b implemented in WASM,72,34,2022-11-07T14:52:05Z,https://github.com/mafintosh/blake2b-wasm
+20,siphash24,SipHash (2-4) implemented in pure Javascript and WebAssembly.,48,8,2022-03-21T09:32:01Z,https://github.com/mafintosh/siphash24
+21,xsalsa20,XSalsa20 implemented in Javascript and WebAssembly,31,7,2021-11-22T11:42:03Z,https://github.com/mafintosh/xsalsa20
+22,multi-value,Proposal to add multi-values to WebAssembly,70,24,2021-10-04T10:52:04Z,https://github.com/WebAssembly/multi-value
+23,tail-call,Proposal to add tail calls to WebAssembly,107,13,2023-03-01T14:38:36Z,https://github.com/WebAssembly/tail-call
+24,gxb-core,GXChain Blockchain implementation,226,78,2022-01-26T07:20:53Z,https://github.com/gxchain/gxb-core
+25,bulk-memory-operations,Bulk memory operations,77,27,2021-03-31T19:39:05Z,https://github.com/WebAssembly/bulk-memory-operations
+26,rollup-plugin-wasm,This module has moved and is now available at @rollup/plugin-wasm / https://github.com/rollup/plugins/blob/master/packages/wasm,74,13,2019-10-30T16:50:33Z,https://github.com/rollup/rollup-plugin-wasm
+27,ocaml-offchain,Fork of WebAssembly reference interpreter with support for generating proofs needed for blockchain verification,44,10,2020-10-25T17:32:48Z,https://github.com/TrueBitFoundation/ocaml-offchain
+28,assemblyscript,A TypeScript-like language for WebAssembly.,16543,647,2024-06-01T20:00:47Z,https://github.com/AssemblyScript/assemblyscript
+29,interface-types,,641,57,2022-05-01T20:29:27Z,https://github.com/WebAssembly/interface-types
+30,xxhash-wasm,A WebAssembly implementation of xxHash,110,19,2023-10-07T23:33:33Z,https://github.com/jungomi/xxhash-wasm
+31,content-security-policy,,38,15,2022-04-18T22:51:07Z,https://github.com/WebAssembly/content-security-policy
+32,rust-wasm,Demos of using rust with webassembly,31,1,2018-04-17T06:03:55Z,https://github.com/gliheng/rust-wasm
+33,libwasm,A simple Web Assembly JIT Engine with no dependencies,24,1,2017-11-04T06:55:52Z,https://github.com/JohnSully/libwasm
+34,blockchain,"Learning on block chain, step by step",115,109,2018-08-31T09:34:51Z,https://github.com/shanlusun/blockchain
+35,eosshop,Prototype ecommerce contract for EOS,22,10,2017-12-27T10:10:38Z,https://github.com/michaeljyeates/eosshop
+36,SECCON2017_online_CTF,,56,12,2017-12-13T14:33:53Z,https://github.com/SECCON/SECCON2017_online_CTF
+37,wasabi,A dynamic analysis framework for WebAssembly programs.,356,45,2023-11-14T00:17:01Z,https://github.com/danleh/wasabi
+38,wasmboy,"Game Boy / Game Boy Color Emulator Library, 🎮written for WebAssembly using AssemblyScript. 🚀Demos built with Preact and Svelte. ⚛️",1375,64,2023-03-04T02:32:59Z,https://github.com/torch2424/wasmboy
+39,Book-DISO-WebAssembly,A book related repository which name is 《深入浅出 WebAssembly》,70,16,2023-03-02T02:16:07Z,https://github.com/Becavalier/Book-DISO-WebAssembly
+40,js-types,Proposal for adding type reflection to the JS API,44,16,2023-12-15T22:59:30Z,https://github.com/WebAssembly/js-types
+41,reference-types,Proposal for adding basic reference types (anyref),162,40,2021-10-04T10:24:06Z,https://github.com/WebAssembly/reference-types
+42,JS-BigInt-integration,JavaScript BigInt to WebAssembly i64 integration,36,14,2020-06-16T13:54:42Z,https://github.com/WebAssembly/JS-BigInt-integration
+43,esm-integration,ECMAScript module integration,353,30,2024-05-28T07:06:22Z,https://github.com/WebAssembly/esm-integration
+44,swam,WebAssembly engine in Scala,51,10,2020-11-25T21:38:39Z,https://github.com/satabin/swam
+45,Uno.Wasm.Bootstrap,A simple nuget package to run C# code in a WASM-compatible browser,356,55,2024-06-11T20:17:30Z,https://github.com/unoplatform/Uno.Wasm.Bootstrap
+46,poetry,A poetically dynamic and simple programming language that compiles to WebAssembly!,55,1,2019-01-13T14:46:50Z,https://github.com/FantasyInternet/poetry
+47,wasm2kt,"Web Assembly to Kotlin and Java converter. Allows to compile a C or C++ program/library, and generate a Kotlin or Java program/library.",24,3,2023-12-31T09:29:13Z,https://github.com/korlibs/wasm2kt
+48,shared_contracts,smart contracts for EOSIO,22,6,2018-07-25T01:42:10Z,https://github.com/JackDiSalvatore/shared_contracts
+49,wasm-game-of-life,Conway's Game of Life - hand written in WebAssembly,59,1,2023-02-28T03:23:41Z,https://github.com/ColinEberhardt/wasm-game-of-life
+50,wasm-effect-handlers," WebAssembly specification, reference interpreter, and test suite with effect handlers extension.",32,2,2022-06-10T15:44:51Z,https://github.com/effect-handlers/wasm-effect-handlers
+51,safe,基于区块链的去中心化数据交易平台,23,10,2018-05-09T07:41:17Z,https://github.com/15Koala/safe
+52,waforth,Small but complete dynamic Forth Interpreter/Compiler for and in WebAssembly,462,26,2024-02-24T08:10:57Z,https://github.com/remko/waforth
+53,EOS-Dapp,Game  Dapp Demo using EOS and React ,118,33,2018-06-12T07:20:54Z,https://github.com/PeterHuZQ/EOS-Dapp
+54,eos_luckpoint,一个包含前后端的完整DAPP结构的EOS游戏,39,18,2018-10-24T15:43:19Z,https://github.com/sailorgege/eos_luckpoint
+55,rocket_rust_py,"The Rocket game, implemented in Rust, running in Python, via WASM",23,6,2023-02-26T15:25:32Z,https://github.com/almarklein/rocket_rust_py
+56,eostypescript,,37,5,2018-05-23T22:43:37Z,https://github.com/EOSArgentina/eostypescript
+57,gameoflife-ts,,29,2,2018-05-23T13:06:12Z,https://github.com/EOSArgentina/gameoflife-ts
+58,decentwitter,Decentralized Twitter on EOS,37,7,2022-12-08T05:09:33Z,https://github.com/kesar/decentwitter
+59,EOS-Dev-Book,,102,39,2022-12-08T17:59:13Z,https://github.com/ericfish/EOS-Dev-Book
+60,eosfilestore,"📜🔗 Immutable, censorship resistant, cheap, file storage on EOS blockchain",45,5,2023-02-28T00:24:29Z,https://github.com/grigio/eosfilestore
+61,Learning-Blockchain-with-EOSIO,"A repo of the source code for the course ""Learning Blockchain with EOS and C++""",26,13,2018-09-10T03:03:04Z,https://github.com/sjkelleyjr/Learning-Blockchain-with-EOSIO
+62,wasm-raytracer,Raytracing: WebAssembly vs JavaScript,66,10,2022-08-08T22:53:55Z,https://github.com/mtharrison/wasm-raytracer
+63,lz4-wasm,LZ4 block format encoder/decoder: a WebAssembly implementation,57,10,2018-09-23T13:10:10Z,https://github.com/gorhill/lz4-wasm
+64,awesome-wasm-zh,WebAssembly(wasm)资源精选,1003,65,2022-08-24T10:38:18Z,https://github.com/wasmlang/awesome-wasm-zh
+65,greenwasm,An implementation of the Webassembly spec in Rust,100,2,2019-01-10T08:27:12Z,https://github.com/Kimundi/greenwasm
+66,eos-shadows,简影致力于打造基于EOS的游戏平台，你在这里既是玩家也是我们的合作人,27,15,2018-12-30T10:23:43Z,https://github.com/eosioshadows/eos-shadows
+67,EOS-Proxy-Token,Proxy token to allow mitigating EOSIO Ram exploit,22,16,2019-01-16T08:19:23Z,https://github.com/EOSEssentials/EOS-Proxy-Token
+68,yoyow-core,YOYOW Blockchain: You Own Your Own Words,241,76,2021-12-12T06:56:53Z,https://github.com/yoyow-org/yoyow-core
+69,bet-death-causes,bet,34,12,2018-10-15T12:35:25Z,https://github.com/jc1991x/bet-death-causes
+70,Halite-III,Season 3 of @twosigma's artificial intelligence programming challenge,178,111,2024-05-21T05:24:54Z,https://github.com/HaliteChallenge/Halite-III
+71,contract,Play EOS Game On,72,49,2019-01-14T10:10:47Z,https://github.com/eoswindev/contract
+72,diepssect,"A public repo for hacky diep stuff - networking protocol, WebAssembly, memory editing, & physics",32,14,2021-05-29T03:33:49Z,https://github.com/cx88/diepssect
+73,contract,Powerful Firewall For EOS Contract,41,14,2019-08-02T09:17:07Z,https://github.com/firewall-x/contract
+74,as2d,Bring the power of the CanvasRenderingContext2D prototype to AssemblyScript,84,7,2023-01-04T21:37:53Z,https://github.com/as2d/as2d
+75,function-references,Proposal for Typed Function References,97,16,2024-05-29T20:11:06Z,https://github.com/WebAssembly/function-references
+76,makepad,"Makepad is a creative software development platform for Rust that compiles to wasm/webGL, osx/metal, windows/dx11 linux/opengl",4863,233,2024-06-09T11:15:22Z,https://github.com/makepad/makepad
+77,WebCPU,Estimate the number of usable cores to perform data processing in the browser.,34,3,2023-01-06T01:42:54Z,https://github.com/darionco/WebCPU
+78,wasm2lua,wasm2lua: converting WASM into Lua,182,10,2021-12-14T20:25:24Z,https://github.com/SwadicalRag/wasm2lua
+79,raw-wasm,Raw WebAssembly demos,420,16,2023-11-15T08:22:06Z,https://github.com/binji/raw-wasm
+80,rabin-wasm,Rabin fingerprinting implemented in WASM,28,7,2022-03-04T04:46:04Z,https://github.com/hugomrdias/rabin-wasm
+81,wavm,A High Performance XuperChain WASM Virtual Machine based on WAVM,23,3,2019-07-08T15:45:49Z,https://github.com/xuperchain/wavm
+82,mandelbrot-threaded-webassembly,A simple demonstration of WebAssembly threads,41,4,2023-08-02T07:41:07Z,https://github.com/ColinEberhardt/mandelbrot-threaded-webassembly
+83,wasm-anyref-demo,Playing around with WebAssembly (Wasm) anyref using JavaScript's GC as the allocator,21,4,2022-12-04T05:57:44Z,https://github.com/jayphelps/wasm-anyref-demo
+84,as-bind,Isomorphic library to handle passing high-level data structures between AssemblyScript and JavaScript 🤝🚀,236,23,2024-01-21T09:47:18Z,https://github.com/torch2424/as-bind
+85,module-linking,"Proposal for allowing modules to define, import and export modules and instances",119,13,2022-05-01T20:17:59Z,https://github.com/WebAssembly/module-linking
+86,slumps,Cool code analysis research for WebAssembly,63,10,2023-05-19T07:24:32Z,https://github.com/ASSERT-KTH/slumps
+87,multi-memory,Multiple per-module memories for Wasm,117,13,2023-07-13T10:10:25Z,https://github.com/WebAssembly/multi-memory
+88,wassail,wassail (WebAssembly static analyzer and inspection library) is a toolkit to perform both lightweight and heavyweight static analysis of WebAssembly modules.,41,7,2024-02-15T20:38:35Z,https://github.com/acieroid/wassail
+89,old-docs.wasmer.io,Wasmer Documentation (for standalone and embedded use cases),41,36,2023-05-08T02:26:19Z,https://github.com/wasmerio/old-docs.wasmer.io
+90,worker-assemblyscript-template,A Cloudflare wrangler template for a AssemblyScript worker,21,3,2023-01-07T11:11:07Z,https://github.com/JamesLMilner/worker-assemblyscript-template
+91,rust-samples,,103,20,2024-05-16T14:10:07Z,https://github.com/rstropek/rust-samples
+92,io-devices-lib,Library for interacting with the Wasmer Experimental IO Devices,52,5,2023-05-07T10:44:06Z,https://github.com/wasmerio/io-devices-lib
+93,KWasm,"Embeddable WebAssembly Interpreter for the JVM, written in Kotlin",33,3,2021-04-19T17:09:59Z,https://github.com/jasonwyatt/KWasm
+94,wizard-engine,Research WebAssembly Engine,329,25,2024-06-11T15:32:56Z,https://github.com/titzer/wizard-engine
+95,spine-raylib-runtimes,Raylib implementation of the C spine runtimes.,41,5,2021-08-12T14:17:50Z,https://github.com/WEREMSOFT/spine-raylib-runtimes
+96,wasm-fingerprint,"🖖 Fast, small, reliable, embeddable browser canvas fingerprinting implemented in WebAssembly. ",99,15,2020-02-04T03:37:39Z,https://github.com/drbh/wasm-fingerprint
+97,memory64,Memory with 64-bit indexes,187,21,2024-06-10T21:11:27Z,https://github.com/WebAssembly/memory64
+98,envoy-experiments,Experiments with Envoy Proxy,35,12,2021-03-04T15:14:06Z,https://github.com/nicholasjackson/envoy-experiments
+99,as-benchmarks,:hourglass_flowing_sand:  :milky_way: AssemblyScript Benchmarks ,30,1,2023-06-25T03:20:36Z,https://github.com/nischayv/as-benchmarks
+100,EXACT,A Bare-Metal Intel 8086 Emulator Written in Raw WebAssembly.,30,3,2021-12-30T19:30:42Z,https://github.com/Thraetaona/EXACT
+101,examples,A collection of AssemblyScript examples.,280,49,2022-08-22T09:40:27Z,https://github.com/AssemblyScript/examples
+102,flexible-vectors,Vector operations for WebAssembly,43,8,2024-04-08T21:32:34Z,https://github.com/WebAssembly/flexible-vectors
+103,wasm-binary-security,,74,4,2022-06-13T10:34:25Z,https://github.com/sola-st/wasm-binary-security
+104,wasm-fun,Non-trivial programs in hand-written WebAssembly,77,5,2020-08-26T01:54:33Z,https://github.com/LingDong-/wasm-fun
+105,Basis-Universal-Transcoders,A collection of optimized WebAssembly transcoders for Basis Universal compressed GPU texture formats.,90,9,2023-07-17T12:09:33Z,https://github.com/KhronosGroup/Basis-Universal-Transcoders
+106,VectorVisor,"VectorVisor is a vectorizing binary translator for GPUs, designed to make it easy to run many copies of a single-threaded WebAssembly program in parallel using GPUs",139,3,2024-04-07T03:47:25Z,https://github.com/SamGinzburg/VectorVisor
+107,MultiVAC,All-dimensional Sharding Flexible Blockchain,130,43,2022-01-15T14:26:50Z,https://github.com/multivactech/MultiVAC
+108,web3.learning,web3 projects source code reading notes,100,32,2024-03-08T03:03:29Z,https://github.com/xiaoyu1998/web3.learning
+109,WebAssembly-Guide,WebAssembly Guide,21,1,2022-01-03T22:27:34Z,https://github.com/mikeroyal/WebAssembly-Guide
+110,intro-to-web-assembly,,36,16,2024-05-27T19:16:14Z,https://github.com/young/intro-to-web-assembly
+111,wasm3_dino_rpi_pico,WebAssembly Dino game for PPi Pico,44,5,2021-04-30T10:00:19Z,https://github.com/vshymanskyy/wasm3_dino_rpi_pico
+112,relaxed-simd,Relax the strict determinism requirements of SIMD operations.,37,6,2024-05-10T07:27:05Z,https://github.com/WebAssembly/relaxed-simd
+113,stack-switching,A repository for the stack switching proposal.,113,11,2024-05-30T20:19:36Z,https://github.com/WebAssembly/stack-switching
+114,ArtOfWasm,"Code repo for ""The Art of WebAssembly"" by Rick Battagline",59,8,2022-02-15T00:12:29Z,https://github.com/battlelinegames/ArtOfWasm
+115,wasp,Wasm System Plugins for Go,36,1,2021-04-29T09:09:39Z,https://github.com/nicholasjackson/wasp
+116,subwasm,Subwasm is a cli utility to look inside a Substrate WASM Runtime. It can inspect and compare the metadata of Substrate based runtimes such as Polkadot or Kusama.,60,24,2024-06-11T14:17:20Z,https://github.com/chevdor/subwasm
+117,xhlove-share,,24,9,2023-03-11T15:24:50Z,https://github.com/xhlove/xhlove-share
+118,js-promise-integration,JavaScript Promise Integration,55,13,2024-05-30T18:11:13Z,https://github.com/WebAssembly/js-promise-integration
+119,circom,zkSnark circuit compiler,1212,224,2024-05-22T19:47:08Z,https://github.com/iden3/circom
+120,c4wa,A simplified subset of C transpiled into Web Assembly,21,2,2022-01-29T06:17:26Z,https://github.com/kign/c4wa
+121,scheme,An R7RS Scheme implemented in WebAssembly ,165,5,2023-05-02T06:27:44Z,https://github.com/PollRobots/scheme
+122,IchigoLisp,LISP 1.5(-ish) implementation in WebAssembly,42,1,2023-04-09T06:57:14Z,https://github.com/zick/IchigoLisp
+123,provably-safe-sandboxing-wasm-usenix22,"Top-level companion software artifact for the paper ""Provably-Safe Multilingual Software Sandboxing using WebAssembly""",36,1,2022-08-30T18:17:36Z,https://github.com/secure-foundations/provably-safe-sandboxing-wasm-usenix22
+124,practice-wasm,A WebAssembly VM with a full-featured Web UI debugger implemented in Rust.,103,6,2023-09-06T17:13:09Z,https://github.com/hemashushu/practice-wasm
+125,stringref,,34,2,2023-03-28T13:09:20Z,https://github.com/WebAssembly/stringref
+126,quickjs-wasm-near,QuickJS compiled to WebAssembly and a Web application for creating writing Javascript on top of NEAR Rust smart contracts,22,2,2024-02-21T21:32:59Z,https://github.com/petersalomonsen/quickjs-wasm-near
+127,wasi-threads,,127,8,2024-01-02T08:01:42Z,https://github.com/WebAssembly/wasi-threads
+128,wasm-opt-rs,Rust bindings for Binaryen's wasm-opt,60,9,2024-03-31T11:55:41Z,https://github.com/brson/wasm-opt-rs
+129,walrus,WebAssembly Lightweight RUntime,32,10,2024-06-12T07:45:40Z,https://github.com/Samsung/walrus
+130,Web49,Web49: WebAssembly Interpeter,324,14,2023-05-15T12:27:32Z,https://github.com/FastVM/Web49
+131,wasm-tutorial,Introduction to WASM assembly,69,4,2023-01-29T11:57:03Z,https://github.com/Evian-Zhang/wasm-tutorial
+132,wasm-wat-samples,Samples of WebAssembly Text programs,119,4,2023-09-23T13:55:10Z,https://github.com/eliben/wasm-wat-samples
+133,shared-everything-threads,A draft proposal for spawning threads in WebAssembly,22,1,2024-06-11T17:59:29Z,https://github.com/WebAssembly/shared-everything-threads
+134,hcaptcha-reverse,Reverse engineered hcaptcha.,72,22,2024-05-30T06:27:21Z,https://github.com/Implex-ltd/hcaptcha-reverse
+135,uxn.wasm,WebAssembly implementation of the Uxn virtual machine,31,1,2024-03-19T18:58:35Z,https://github.com/remko/uxn.wasm

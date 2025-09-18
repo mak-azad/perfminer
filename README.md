@@ -1,0 +1,13 @@
+## Running the tool on cloudlab cluster
+- Use `extract_ip_cloudlab.py` script to get the ip list of nodes from `Manifest.xml` file for the cluster at cloudlab, paste them in `sshhosts` and `sshhosts_hostname` files 
+- `bash check.sh` (checking if nodes setup correctly)
+- `parallel-ssh -i -h sshhosts 'curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"'` (setting up conda)
+- `parallel-ssh -i -h sshhosts  -t 0  'bash Miniforge3-Linux-x86_64.sh -b '` (setting up conda)
+- `bash freeze_ubuntu.sh` (for oracle cloud nodes)
+- `bash master.sh` (setup master node)
+- `parallel-ssh -i -h sshhosts -x "-oStrictHostKeyChecking=no" -P -t 0 'nohup bash /users/akazad/miner_github/install_n_run.sh'`  (setup all nodes for mining tool)
+- `python3 task_parallelizer.py repository_lists/filtered_repositories_c.csv ubuntu`  (split task to all node)
+- `parallel-ssh -i -h sshhosts 'chmod +x miner_github/cronjob/add_cron_job.sh'`   
+- `parallel-ssh -i -h sshhosts 'bash miner_github/cronjob/add_cron_job.sh'` (start mining)
+- Run `monitor_logs.py` to restart a node in case the script hangs 
+- `parallel-ssh -i -h sshhosts 'ps aux | grep 'miner_github/analyzer/test_repo_analyzer.py' | grep -v grep'`  (check mining process, start in 5 min)

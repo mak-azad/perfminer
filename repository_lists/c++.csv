@@ -1,0 +1,100 @@
+Serial No,Name,Description,Stars,Forks,Last Commit,Repository URL
+1,hhvm,A virtual machine for executing programs written in Hack.,17883,3172,2023-12-22T22:44:35Z,https://github.com/facebook/hhvm
+2,ccache,ccache – a fast compiler cache,2067,472,2023-12-22T13:29:49Z,https://github.com/ccache/ccache
+3,znc,Official repository for the ZNC IRC bouncer,1967,390,2023-11-19T09:07:29Z,https://github.com/znc/znc
+4,winsparkle,"App update framework for Windows, inspired by Sparkle for macOS",1209,266,2023-10-02T16:16:13Z,https://github.com/vslavik/winsparkle
+5,rocket,Rocket,348,40,2023-10-30T19:16:03Z,https://github.com/rocket/rocket
+6,xkblayout-state,A small command-line program to get/set the current keyboard layout.,245,26,2021-11-06T13:09:01Z,https://github.com/nonpop/xkblayout-state
+7,cpp-netlib,"The C++ Network Library Project -- header-only, cross-platform, standards compliant networking library.",236,599,2020-04-02T06:56:21Z,https://github.com/glynos/cpp-netlib
+8,EWProxyFramebuffer,Kernel extension (kext) for OS X (Snow Leopard) to simulate a graphic card,146,42,2014-01-04T19:36:45Z,https://github.com/mkernel/EWProxyFramebuffer
+9,SuperCollider-Android,An Android port of SuperCollider,122,22,2014-12-16T13:17:41Z,https://github.com/glastonbridge/SuperCollider-Android
+10,console,Public Console repo,118,281,2022-02-28T09:59:03Z,https://github.com/bozho/console
+11,acm,My accepted submissions to ACM ICPC training and related sites,114,45,2011-06-20T22:46:38Z,https://github.com/ivankra/acm
+12,tpie,Templated Portable I/O Environment,109,24,2023-11-28T03:35:16Z,https://github.com/thomasmoelhave/tpie
+13,libmaia,XML-RPC lib for Qt,65,27,2023-06-23T09:05:04Z,https://github.com/wiedi/libmaia
+14,throttled,Bandwidth limiter and QoS solution.,60,8,2017-07-23T00:14:55Z,https://github.com/zquestz/throttled
+15,MidiOSC,A bridge between MIDI and OpenSoundControl,57,9,2017-04-27T13:23:54Z,https://github.com/jstutters/MidiOSC
+16,OpenTTD,OpenTTD for the iPhone & iPod Touch,34,12,2010-04-16T07:51:30Z,https://github.com/zodttd/OpenTTD
+17,libfbjs,JavaScript parser and AST manipulation framework,32,16,2014-05-13T23:52:57Z,https://github.com/facebookarchive/libfbjs
+18,ofxTuioWrapper,sketch of ofxTuioWrapper with new ofTouchEvent,23,25,2019-11-12T11:03:17Z,https://github.com/arturoc/ofxTuioWrapper
+19,QuadEncoder,Arduino library for quadratic rotary encoder,22,6,2021-02-10T18:40:26Z,https://github.com/medecau/QuadEncoder
+20,tanglet,Single player variant of Boggle.,21,10,2023-10-12T12:11:42Z,https://github.com/gottcode/tanglet
+21,Mandelbulb-Viewer,A stand-alone viewer for Tom Beddard's GLSL Mandelbulb ray tracer,19,3,2011-03-27T20:07:44Z,https://github.com/acaudwell/Mandelbulb-Viewer
+22,PyProp,A Python framework for propagating the time dependent Schrödinger equation,17,4,2011-08-23T15:19:14Z,https://github.com/kvantetore/PyProp
+23,janssonxx,C++ bindings for the Jansson library,17,8,2010-01-19T05:19:09Z,https://github.com/elanthis/janssonxx
+24,Qt-OpenCv,"Simple webcam and pattern recognition(faces, eyes...) application built while I was learning Qt, OpenCv and Git",13,1,2017-11-15T11:57:02Z,https://github.com/Kronen/Qt-OpenCv
+25,libmidi,A very simple library for reading and writing MIDI files.,13,1,2010-01-06T00:43:17Z,https://github.com/kkrizka/libmidi
+26,phonegap-symbian.qt,Symbian Qt implementation of the PhoneGap API,12,5,2010-06-15T22:21:32Z,https://github.com/wildabeast/phonegap-symbian.qt
+27,WonderGUI,Cross platform graphical user interface for games and other programs that wants a custom look-n-feel. Implemented in C++ and released under GPL and multiple commercial license offers. Used since 2005 in commercial products.,12,6,2023-12-22T10:06:47Z,https://github.com/tordj/WonderGUI
+28,Arduino-IRremote,Infrared remote library for Arduino: send and receive infrared signals with multiple protocols,4167,1730,2023-12-04T08:53:10Z,https://github.com/Arduino-IRremote/Arduino-IRremote
+29,poedit,"Translations editor for Mac, Windows and Unix",1613,278,2023-12-22T15:25:18Z,https://github.com/vslavik/poedit
+30,istatd,"Serving statistics to the iPhone application from Linux, Solaris and FreeBSD",277,41,2014-09-28T22:11:40Z,https://github.com/tiwilliam/istatd
+31,munkres-cpp,Kuhn-Munkres (Hungarian) Algorithm in C++,194,77,2022-05-31T19:16:57Z,https://github.com/saebyn/munkres-cpp
+32,libusbnet,libusb wrapper to enable communication with USB devices over TCP/IP,103,27,2016-02-25T16:55:06Z,https://github.com/vavrusa/libusbnet
+33,poppler,This is not the poppler repository. Please see https://poppler.freedesktop.org/,47,31,2010-01-24T04:09:38Z,https://github.com/davidben/poppler
+34,spotyxbmc,"Deprecated, use https://github.com/akezeke/spotyxbmc2 instead",45,7,2011-12-04T10:02:22Z,https://github.com/akezeke/spotyxbmc
+35,emacskeys,Emacs keybindings for Qt Creator,38,5,2013-09-22T23:47:22Z,https://github.com/fberger/emacskeys
+36,CassFS,FUSE interface to Cassandra,36,2,2010-01-16T02:44:22Z,https://github.com/jdarcy/CassFS
+37,Pythia,Delphi Obfuscator,31,8,2010-01-27T18:41:14Z,https://github.com/sporst/Pythia
+38,ofxTableGestures,Openframeworks addon for creating applications using multitouch and tangible technologies via the TUIO protocol.,30,11,2018-01-10T11:22:38Z,https://github.com/chaosct/ofxTableGestures
+39,deep-learning,"Deep learning algorithms: A sparse autoencoder (and someday more algorithms), implemented in Common Lisp.",27,6,2010-06-10T14:57:34Z,https://github.com/gonzojive/deep-learning
+40,parser,Expression parser written in C++,26,44,2014-11-27T06:01:01Z,https://github.com/nickgammon/parser
+41,topcoder,TopCoder ploblems which I've solved.,24,10,2011-12-01T17:13:17Z,https://github.com/cou929/topcoder
+42,PostHaste,Compiles RenderMan shader kernels to native shader plugins via LLVM,22,1,2012-02-28T04:21:53Z,https://github.com/MarkLeone/PostHaste
+43,OpenGTA2,Git Repository for https://svn.wireos.com:81/svn/opengta2/ also trying to add some features but first making it work under linux ;-),21,6,2010-01-27T02:35:51Z,https://github.com/u9oqcd4p/OpenGTA2
+44,SnapsIE,,20,5,2014-11-03T03:06:58Z,https://github.com/nirvdrum/SnapsIE
+45,LIBSVM-Plus,Enhanced version of LIBSVM project (C++ version),19,11,2012-04-23T08:20:29Z,https://github.com/vincenzo/LIBSVM-Plus
+46,Extract,"Extract is a Mac app to take a chunk of html, like a flash embed code, and load it in it's own mostly chromeless window",14,1,2010-05-02T21:26:06Z,https://github.com/zachwaugh/Extract
+47,SkypeRec,Open source tool for recording skype calls. Fork of the Skype Call Recorder.,13,5,2013-06-04T16:44:10Z,https://github.com/proton/SkypeRec
+48,vncproxy,A VNC proxy that redirects to different VNC servers on different passwords,12,6,2013-04-25T04:09:35Z,https://github.com/santazhang/vncproxy
+49,dfhack,Memory hacking library for Dwarf Fortress and a set of tools that use it,1785,470,2023-12-19T23:29:56Z,https://github.com/DFHack/dfhack
+50,VBoxHeadlessTray,Run a VirtualBox machine in a tray icon,177,22,2021-01-04T01:30:22Z,https://github.com/toptensoftware/VBoxHeadlessTray
+51,node-libvirt,libvirt bindings for google v8 javascript engine (nodejs addon),173,97,2019-12-26T10:17:29Z,https://github.com/hooklift/node-libvirt
+52,netevent,Input-Event device cloning utility. Use it together with ssh/netcat/... to share input devices among different machines.,132,14,2023-04-29T14:17:15Z,https://github.com/Blub/netevent
+53,formosana,A C++ Library for Processing Taiwanese Languages,102,7,2021-12-04T18:13:08Z,https://github.com/lukhnos/formosana
+54,Movid,"A real-opensource tracker for touch, fiducials...",69,25,2012-10-16T10:29:16Z,https://github.com/tito/Movid
+55,node-geoip,Naive wrapper around libGeoIP for use with node.js,60,17,2011-04-07T10:38:15Z,https://github.com/strange/node-geoip
+56,nca,Neighborhood Components Analysis in C++,38,8,2010-02-09T12:07:03Z,https://github.com/jhseu/nca
+57,hdf5,HDF5 C++ wrapper,37,43,2023-12-15T05:29:12Z,https://github.com/jsharpe/hdf5
+58,iTextus,"A plain text reader for iPad, featuring font customization, subpixel rendering and optimized CJK support",34,8,2012-07-13T06:55:07Z,https://github.com/jjgod/iTextus
+59,SoundPatty,DEPRECATED: application for recognizing sound patterns in an audio stream. Used in VoIP and radio.,33,7,2019-04-30T05:44:55Z,https://github.com/motiejus/SoundPatty
+60,mrrocpp,Multi-Robot Research Oriented Controller,27,48,2012-02-17T18:19:45Z,https://github.com/ptroja/mrrocpp
+61,minim-cpp,"A (partial) C++ port of Minim, including implementations for Windows and iPhone OS.",26,5,2023-02-11T01:58:12Z,https://github.com/ddf/minim-cpp
+62,SimpleLibV1,Simple C++ template library,25,7,2010-05-26T23:11:54Z,https://github.com/toptensoftware/SimpleLibV1
+63,rmanptcsop,Houdini geometry operator (SOP) for loading and displaying RenderMan point clouds.,24,3,2011-06-29T22:46:51Z,https://github.com/danbethell/rmanptcsop
+64,gaosp_vendor,,17,12,2011-06-27T06:37:24Z,https://github.com/drakaz/gaosp_vendor
+65,tracking,single particle tracking code for colloidal research,14,3,2013-10-26T01:09:09Z,https://github.com/tacaswell/tracking
+66,winglib,"A platform independent C++ library, providing glue between the Squirrel Scripting language and several common open source projects such as bullet, CxImage, FFMPEG, freenect, freetype, gstreamer, gdchart, irrlicht, libusb, live555, mysql, opencv, portaudio, quickfix, sqlite, webkit, webm, wxwidgets, and others.",13,8,2016-05-09T13:25:16Z,https://github.com/wheresjames/winglib
+67,ftgles,"FTGL, a font rendering library, ported to OpenGLES.",12,3,2010-02-08T23:30:25Z,https://github.com/jlongster/ftgles
+68,dsnative,Direct Show Binary Codec Loader and Decoder,11,5,2010-03-04T01:35:39Z,https://github.com/sherpya/dsnative
+69,OpenSceneGraph,OpenSceneGraph git repository,2977,1381,2023-12-10T07:53:38Z,https://github.com/openscenegraph/OpenSceneGraph
+70,tmux-mem-cpu-load,"CPU, RAM, and load monitor for use with tmux",961,134,2023-12-15T04:52:14Z,https://github.com/thewtex/tmux-mem-cpu-load
+71,WinUAE,WinUAE Amiga emulator,487,83,2023-12-20T16:18:13Z,https://github.com/tonioni/WinUAE
+72,Brain,Arduino library for reading Neurosky EEG brainwave data. (Tested with the MindFlex and Force Trainer toys.),423,155,2023-11-23T18:56:08Z,https://github.com/kitschpatrol/Brain
+73,shruthi-1,"Firmware and hardware description files for the Shruthi-1, an hybrid monosynth",198,98,2020-05-24T13:10:37Z,https://github.com/pichenettes/shruthi-1
+74,eyewriter,open source eye tracking and drawing toolkit,191,66,2014-08-09T10:31:29Z,https://github.com/eyewriter/eyewriter
+75,lqt,Lua bindings for Qt4 by Mauro Iazzi,187,33,2013-03-28T13:10:12Z,https://github.com/mkottman/lqt
+76,Genius-TCAD-Open,Open-source version of the Genius Semiconductor Device Simulator,99,62,2020-04-19T20:01:20Z,https://github.com/cogenda/Genius-TCAD-Open
+77,tronbot,a1k0n's 2010 Google AI Challenge entry,89,15,2011-05-01T18:09:12Z,https://github.com/a1k0n/tronbot
+78,php-svm,Libsvm extension for PHP,82,26,2018-10-19T22:10:38Z,https://github.com/ianbarber/php-svm
+79,node-gd,GD graphic library bindings for Node.js,81,29,2016-02-22T07:09:17Z,https://github.com/taggon/node-gd
+80,BikechainJS,JavaScript VM engine (powered by V8); server-side environment modules; server-side synchronous web app controllers,80,14,2016-02-29T07:06:58Z,https://github.com/getify/BikechainJS
+81,osx-pl2303,"MOVED: A very unofficial fork of the Prolific PL2303 driver hosted at http://osx-pl2303.sourceforge.net/, compiled for modern versions of Mac OS X, including Snow Leopard.  Patches very welcome, particularly those that add vendor/device IDs.  Prebuilt PKG (just as good as a DMG!) available for download, works on Snow Leopard (Mac OS X 10.6) 32-bit and 64-bit kernels.",64,24,2013-08-22T05:02:54Z,https://github.com/berg/osx-pl2303
+82,portal,This portal repo is for development purposes only,27,27,2017-10-31T07:58:06Z,https://github.com/blueboy/portal
+83,node-maxmind,maxmind geoip binding to node.js,26,4,2010-11-26T16:34:10Z,https://github.com/gyordanov/node-maxmind
+84,libmumbleclient,,22,4,2010-09-19T12:10:05Z,https://github.com/pcgod/libmumbleclient
+85,CodeDB,A simple indexing program to quickly search through source code.,20,2,2014-05-19T00:10:11Z,https://github.com/kalven/CodeDB
+86,node-base64,C/C++ base64 lib for node,16,4,2010-11-18T07:59:58Z,https://github.com/brainpicture/node-base64
+87,1kbrl,Tiny roguelike,12,1,2010-03-03T15:49:15Z,https://github.com/tapio/1kbrl
+88,Critterding,Evolving artificial life.,11,2,2010-05-16T02:36:03Z,https://github.com/bobke/Critterding
+89,qmlib,Legacy C++ code for quantitative finance,11,7,2010-02-18T08:29:12Z,https://github.com/quantmind/qmlib
+90,WOW-Bot,"Headless World of Warcraft TBC Bot written in python for debugging purposes, it requires patched server with plaintext auth",11,9,2010-02-17T21:16:40Z,https://github.com/tizbac/WOW-Bot
+91,cyclone-physics,"The Physics engine that accompanies the book ""Game Physics Engine Design""",860,248,2023-09-25T07:58:24Z,https://github.com/idmillington/cyclone-physics
+92,RTClib,A fork of Jeelab's fantastic RTC Arduino library,765,696,2023-11-15T15:14:03Z,https://github.com/adafruit/RTClib
+93,pyre2,Python wrapper for RE2,625,177,2023-11-06T17:01:23Z,https://github.com/facebook/pyre2
+94,aicore,"Now obsolete code accompanying the first (2005) edition of the book ""Artificial Intelligence for Games""",531,159,2019-04-25T23:15:37Z,https://github.com/idmillington/aicore
+95,sunpinyin,A statistical language model based Chinese input method,487,123,2023-08-11T07:47:10Z,https://github.com/sunpinyin/sunpinyin
+96,rlutil,C and C++ utilities for cross-platform console roguelike game creation.,224,43,2023-06-21T20:28:08Z,https://github.com/tapio/rlutil
+97,SMC,An open source two-dimensional platform game.,189,109,2019-03-05T15:58:53Z,https://github.com/FluXy/SMC
+98,AndroidUsbCamera,Android USB Camera Driver/Bridge for GNU/Linux,174,103,2020-10-01T21:29:04Z,https://github.com/marcogulino/AndroidUsbCamera
+99,tundra,"realXtend Tundra SDK, a 3D virtual world application platform.",84,70,2016-03-30T13:03:45Z,https://github.com/realXtend/tundra
