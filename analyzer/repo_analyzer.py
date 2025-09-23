@@ -55,8 +55,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ##### loading the classifier model ########
 # Load the tokenizer and model only once, use them for all predictions
 
-tokenizer = AutoTokenizer.from_pretrained("/users/akazad/fine_tuned_graphcodebert_best_170K")
-model = AutoModelForSequenceClassification.from_pretrained("/users/akazad/fine_tuned_graphcodebert_best_170K")
+tokenizer = AutoTokenizer.from_pretrained("/users/akazad/perfannotator-mini/fine_tuned_graphcodebert_best_170K")
+model = AutoModelForSequenceClassification.from_pretrained("/users/akazad/perfannotator-mini/fine_tuned_graphcodebert_best_170K")
 # Move model to the chosen device
 model.to(device).eval()
 # #### loading the classifier model Ends #####
