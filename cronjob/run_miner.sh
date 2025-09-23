@@ -2,12 +2,12 @@
 set -euo pipefail
 
 # ---- paths ----
-BASE="/users/akazad/perf_miner"
+BASE="/users/akazad/perfminer"
 LOGDIR="$BASE/cronjob"
 mkdir -p "$LOGDIR"
 
 # Your analyzer entrypoint (absolute)
-COMMAND="$BASE/analyzer/repo_analyzer.py"
+COMMAND="$BASE/analyzer/repo_analyzer.py --language cpp"
 
 # ---- conda env activation (cron-safe) ----
 # Load conda functions, then activate your env.

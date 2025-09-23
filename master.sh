@@ -38,9 +38,9 @@ parallel-ssh -i -h sshhosts 'sudo apt-get update && sudo apt-get install -y soft
 #parallel-ssh -i -h sshhosts 'sudo snap install nvtop'
 echo "cleaning previous version.."
 sleep 5
-parallel-ssh -i -h sshhosts 'sudo rm -rf  miner_github/'
+parallel-ssh -i -h sshhosts 'sudo rm -rf  perfminer/'
 echo "Cloning repo to all nodes home directory"
-parallel-ssh -i -h sshhosts 'git clone -b cloudlab https://github.com/mak-azad/miner_github.git'
+parallel-ssh -i -h sshhosts 'git clone  https://github.com/mak-azad/perfminer.git'
 echo 'Cloning completed!'
 #echo "Spliting task to all nodes..."
 #python3 task_parallelizer.py repository_lists/github_repositories_C_12222023.csv ubuntu

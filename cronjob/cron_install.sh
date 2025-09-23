@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Project base and scripts
-BASE="/users/akazad/perf_miner"
+BASE="/users/akazad/perfminer"
 RUNNER="$BASE/cronjob/run_miner.sh"
 LOGDIR="$BASE/cronjob"
 LOCKFILE="$BASE/cronjob/run.lock"
