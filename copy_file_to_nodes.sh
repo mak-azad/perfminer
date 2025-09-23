@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the file you want to copy
-file_to_copy="/home/akazad/perf_miner/test/test_model.py"
+file_to_copy="/users/akazad/perfminer/test/test_model.py"
 remote_directory="/users/akazad/"
 
 # Read the IP addresses from the sshhosts file and copy the file to each node
