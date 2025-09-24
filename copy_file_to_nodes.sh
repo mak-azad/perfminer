@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define the file you want to copy
-file_to_copy="/users/akazad/perfminer/test/test_model.py"
-remote_directory="/users/akazad/"
+file_to_copy="/users/akazad/perfminer/analyzer/repo_analyzer.py"
+remote_directory="/users/akazad/perfminer/analyzer/"
 
 # Read the IP addresses from the sshhosts file and copy the file to each node
 while read -r node_ip; do
