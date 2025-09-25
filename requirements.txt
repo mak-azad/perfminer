@@ -1,0 +1,10 @@
+numpy<2
+pandas
+requests
+pydriller
+pygit2<1.15
+nltk
+transformers
+accelerate
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.0
