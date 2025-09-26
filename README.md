@@ -71,6 +71,23 @@ showmount -e localhost
 You should see `/nfs` listed.
 
 ---
+## Run these ONLY on the SERVER to ensure it won't self-mount.
+
+### A) Ensure the server has NO client-style /etc/fstab entry:
+grep -nE '(:/nfs[[:space:]]+/nfs[[:space:]]+nfs)' /etc/fstab \
+  && { echo "ERROR: Remove client NFS line for /nfs from /etc/fstab on the SERVER!"; exit 1; } \
+  || echo "OK: no NFS /nfs line in server's /etc/fstab."
+
+### B) Ensure /nfs on the SERVER is NOT NFS-mounted:
+mount | awk '$3=="/nfs"{print $5}' | grep -q '^nfs' \
+  && { echo "ERROR: /nfs is NFS-mounted on the SERVER (self-mount loop). Unmount with: sudo umount -lf /nfs"; exit 1; } \
+  || echo "OK: /nfs on server is not NFS (good)."
+
+### C) (If you use parallel-ssh) Make sure the SERVER is not in sshhosts:
+SERVER_IP=155.98.38.80
+grep -E "(^|[[:space:]])${SERVER_IP}([[:space:]]|$)" sshhosts \
+  && { echo "ERROR: Remove ${SERVER_IP} (the server) from sshhosts!"; exit 1; } \
+  || echo "OK: server not listed in sshhosts."
 
 ## 2. Client Setup
 
