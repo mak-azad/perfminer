@@ -133,23 +133,9 @@ SERVER_IP=155.98.38.80
 
 ## 4. Health Checks
 
-### 4.1 From the server
-```bash
-showmount -a     # list all clients using the export
-```
+### Which clients mounted it?
+parallel-ssh -h sshhosts -i "mount | grep '${SERVER_IP}:/nfs' || echo 'NOT_MOUNTED'"
 
-### 4.2 From clients
-```bash
-mount | grep /nfs
-test -f /nfs/perfannotator-mini.tgz && echo "OK"
-```
-
-### 4.3 Fleet-wide check
-```bash
-parallel-ssh -h sshhosts -i "mount | grep ':/nfs ' || echo 'NOT_MOUNTED'"
-parallel-ssh -h sshhosts -i "test -f /nfs/perfannotator-mini.tgz && echo OK || echo MISSING"
-```
-
-
-
+### Can they see a known file (if present)?
+parallel-ssh -h sshhosts -i "test -e /nfs/perfannotator-mini.tgz && echo OK || echo MISSING"
 ---
