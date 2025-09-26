@@ -61,12 +61,16 @@ echo "/nfs *(rw,sync,no_subtree_check,no_root_squash)" | sudo tee /etc/exports
 ```
 
 ### 1.4 Start services
-```bash
+# SERVER ONLY
 sudo systemctl restart rpcbind
+
+# Precheck to avoid exportfs hang due to self-mount:
+mount | awk '$3=="/nfs"{print $5}' | grep -q '^nfs' \
+  && { echo "ERROR: /nfs is NFS-mounted on server; fix with: sudo umount -lf /nfs && sudo mount /dev/sdX /nfs"; exit 1; }
+
 sudo systemctl restart nfs-server
 sudo exportfs -ravvv
-showmount -e localhost
-```
+showmount -e localhost   # should list /nfs instantly
 
 You should see `/nfs` listed.
 
