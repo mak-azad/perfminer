@@ -95,6 +95,11 @@ grep -E "(^|[[:space:]])${SERVER_IP}([[:space:]]|$)" sshhosts \
 
 ## 2. Client Setup
 
+# CLIENTS ONLY
+sudo mkdir -p /nfs
+sudo mount -t nfs -o vers=3,nolock SERVER_IP:/nfs /nfs
+
+
 ### 2.1 Install NFS client packages
 ```bash
 sudo apt-get update
