@@ -115,18 +115,20 @@ sudo mount -a
 
 Create a file `sshhosts` containing all client hostnames/IPs (exclude the server).
 
-### 3.1 Mount everywhere
-```bash
-SERVER_IP=155.98.36.136
-
-parallel-ssh -t 60 -h sshhosts -i   "sudo mkdir -p /nfs &&    (mountpoint -q /nfs || sudo mount -t nfs -o vers=3,nolock $SERVER_IP:/nfs /nfs) &&    ls -lh /nfs || echo 'MOUNT_FAILED'"
+### 0) Make sure the server is NOT in the host list
 ```
-
-### 3.2 Add fstab entry everywhere
-```bash
-parallel-ssh -t 30 -h sshhosts -i   "grep -q '^$SERVER_IP:/nfs ' /etc/fstab ||    echo '$SERVER_IP:/nfs /nfs nfs vers=3,nolock,_netdev,defaults 0 0' | sudo tee -a /etc/fstab >/dev/null;    sudo mount -a;    mount | grep '$SERVER_IP:/nfs' || echo 'NOT_MOUNTED'"
+grep -E '(^| )155\.98\.38\.80( |$)' sshhosts && echo "Remove server from sshhosts!" || echo "OK: server not in sshhosts"
 ```
-
+### 1) Set server IP for local expansion
+```
+SERVER_IP=155.98.38.80
+```
+### 2) Fan-out mount to clients (longer timeout & gentle listing)
+```parallel-ssh -t 600 -h sshhosts -i \
+  "sudo mkdir -p /nfs && \
+   (mountpoint -q /nfs || sudo mount -t nfs -o vers=3,nolock ${SERVER_IP}:/nfs /nfs) && \
+   ls -lh /nfs | head || echo 'MOUNT_FAILED'"
+```
 ---
 
 ## 4. Health Checks
