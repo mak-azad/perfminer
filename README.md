@@ -159,6 +159,21 @@ SERVER_IP=155.98.38.80
 
 ## 4. Health Checks
 
+### if suspect a loop on the server
+```
+# On the SERVER
+mount | grep " /nfs "      # should show ONLY: /dev/sdX on /nfs type ext4
+sudo exportfs -v           # should list /nfs and your client CIDRs
+showmount -e localhost     # must return immediately with /nfs
+```
+### quick fix for loop
+```
+sudo umount -lf /nfs
+sudo mount /dev/sdX /nfs
+sudo systemctl restart rpcbind nfs-server
+sudo exportfs -ravvv
+```
+
 ### Which clients mounted it?
 parallel-ssh -h sshhosts -i "mount | grep '${SERVER_IP}:/nfs' || echo 'NOT_MOUNTED'"
 
