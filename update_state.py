@@ -40,7 +40,7 @@ def get_ip_from_sshosts(sshosts_path: str) -> Optional[str]:
             for line in file:
                 parts = line.strip().split()
                 if len(parts) >= 2:
-                    ip_address, line_hostname = parts[0], parts[1]
+                    line_hostname, ip_address = parts[0], parts[1]
                     if line_hostname == hostname:
                         return ip_address
     except Exception:
