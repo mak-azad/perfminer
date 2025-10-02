@@ -141,9 +141,15 @@ sudo mount -a
 
 ---
 
+
+
 ## 3. Multi-Node Setup (with `parallel-ssh`)
 
 Create a file `sshhosts` containing all client hostnames/IPs (exclude the server).
+### Which clients mounted it?
+```
+parallel-ssh -h sshhosts -i "mount | grep '${SERVER_IP}:/nfs' || echo 'NOT_MOUNTED'"
+```
 
 ### 0) Make sure the server is NOT in the host list
 ```
@@ -178,8 +184,15 @@ sudo systemctl restart rpcbind nfs-server
 sudo exportfs -ravvv
 ```
 
-### Which clients mounted it?
-parallel-ssh -h sshhosts -i "mount | grep '${SERVER_IP}:/nfs' || echo 'NOT_MOUNTED'"
+### quick fix on clients where it failed to mount due to version
+```
+SERVER_IP=<PUT_SERVER_IP_HERE>
+sudo mkdir -p /nfs
+sudo mount -t nfs -o vers=4.1,proto=tcp ${SERVER_IP}:/nfs /nfs
+ls -lh /nfs | head
+```
+
+
 
 ### Can they see a known file (if present)?
 parallel-ssh -h sshhosts -i "test -e /nfs/perfannotator-mini.tgz && echo OK || echo MISSING"
