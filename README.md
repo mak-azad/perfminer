@@ -1,4 +1,4 @@
-## Running the tool on cloudlab cluster
+## Running the tool 
 - Use `extract_ip_cloudlab.py` script to get the ip list of nodes from `Manifest.xml` file for the cluster at cloudlab, paste them in `sshhosts` and `sshhosts_hostname` files 
 - `bash check.sh` (checking if nodes setup correctly)
 - `parallel-ssh -i -h sshhosts 'curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"'` (setting up conda)
@@ -12,11 +12,22 @@
 - Run `monitor_logs.py` to restart a node in case the script hangs 
 - `parallel-ssh -i -h sshhosts 'ps aux | grep 'miner_github/analyzer/test_repo_analyzer.py' | grep -v grep'`  (check mining process, start in 5 min)
 
+### Setup language config
+```bash
+# Set language once for all nodes
+./set_mining_language.sh python
+
+# Verify configuration
+./check_mining_language.sh
+
+# Set environment variable on all nodes
+parallel-ssh -h sshhosts -i 'echo "export PERFMINER_LANGUAGE=python" >> ~/.bashrc'
+```
 
 
 
 
-# Cluster setup guide (NFS Server + Client Setup Guide) 
+## Cluster setup guide (NFS Server + Client Setup Guide) 
 
 This guide documents how to configure an NFS server and mount it on multiple clients in a cluster.  
 It is based on a working setup tested on CloudLab nodes (Ubuntu/Debian style).
