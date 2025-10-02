@@ -37,7 +37,7 @@ Identify your data disk (example: `/dev/sdd`):
 lsblk -o NAME,SIZE,FSTYPE,MOUNTPOINT
 ```
 
-Mount it at `/nfs`:
+If not mounted, mount it at `/nfs`:
 ```bash
 sudo mkdir -p /nfs
 sudo mount /dev/sdd /nfs
@@ -50,7 +50,7 @@ echo "/dev/sdd  /nfs  ext4  defaults  0  2" | sudo tee -a /etc/fstab
 ```
 
 ### 1.3 Configure exports
-Edit `/etc/exports`:
+Edit `/etc/exports` and save:
 ```bash
 echo "/nfs *(rw,sync,no_subtree_check,no_root_squash)" | sudo tee /etc/exports
 ```
@@ -62,37 +62,41 @@ echo "/nfs *(rw,sync,no_subtree_check,no_root_squash)" | sudo tee /etc/exports
 
 ### 1.4 Start services
 # SERVER ONLY
-sudo systemctl restart rpcbind
+```sudo systemctl restart rpcbind```
 
 # Precheck to avoid exportfs hang due to self-mount:
+```
 mount | awk '$3=="/nfs"{print $5}' | grep -q '^nfs' \
   && { echo "ERROR: /nfs is NFS-mounted on server; fix with: sudo umount -lf /nfs && sudo mount /dev/sdX /nfs"; exit 1; }
 
 sudo systemctl restart nfs-server
 sudo exportfs -ravvv
 showmount -e localhost   # should list /nfs instantly
-
+```
 You should see `/nfs` listed.
 
 ---
 ## Run these ONLY on the SERVER to ensure it won't self-mount.
 
 ### A) Ensure the server has NO client-style /etc/fstab entry:
+```
 grep -nE '(:/nfs[[:space:]]+/nfs[[:space:]]+nfs)' /etc/fstab \
   && { echo "ERROR: Remove client NFS line for /nfs from /etc/fstab on the SERVER!"; exit 1; } \
   || echo "OK: no NFS /nfs line in server's /etc/fstab."
-
+```
 ### B) Ensure /nfs on the SERVER is NOT NFS-mounted:
+```
 mount | awk '$3=="/nfs"{print $5}' | grep -q '^nfs' \
   && { echo "ERROR: /nfs is NFS-mounted on the SERVER (self-mount loop). Unmount with: sudo umount -lf /nfs"; exit 1; } \
   || echo "OK: /nfs on server is not NFS (good)."
-
+```
 ### C) (If you use parallel-ssh) Make sure the SERVER is not in sshhosts:
+```
 SERVER_IP=155.98.38.80
 grep -E "(^|[[:space:]])${SERVER_IP}([[:space:]]|$)" sshhosts \
   && { echo "ERROR: Remove ${SERVER_IP} (the server) from sshhosts!"; exit 1; } \
   || echo "OK: server not listed in sshhosts."
-
+```
 ## 2. Client Setup
 
 # CLIENTS ONLY
