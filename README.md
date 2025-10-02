@@ -1,4 +1,4 @@
-# PerfMiner - Instructions to setup the mining tool
+# PerfMiner - Instructions to setup the tool for distributed mining
 
 ## 🚀 Quick Start Guide
 
