@@ -8,7 +8,12 @@ mkdir -p "$LOGDIR"
 
 # Your analyzer entrypoint (absolute)
 COMMAND="$BASE/analyzer/repo_analyzer.py"
-LANGUAGE="cpp"
+
+# Load language from config file if it exists, then environment variable, then default
+if [[ -f "$BASE/cronjob/miner.conf" ]]; then
+  source "$BASE/cronjob/miner.conf"
+fi
+LANGUAGE="${PERFMINER_LANGUAGE:-${LANGUAGE:-cpp}}"
 
 # ---- conda env activation (cron-safe) ----
 if [ -f /users/akazad/miniforge3/etc/profile.d/conda.sh ]; then
