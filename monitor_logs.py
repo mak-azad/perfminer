@@ -47,7 +47,7 @@ TIME_THRESHOLD_MINUTES = 25
 
 # The file containing hostnames and IP addresses of remote nodes. Each line
 # should consist of a hostname and its IP address separated by whitespace.
-HOSTS_FILE = "sshhosts_hostname"
+HOSTS_FILE = "sshhosts"
 
 ###############################################################################
 # Helper functions
