@@ -32,7 +32,7 @@ parallel-ssh -h sshhosts -i 'echo "export PERFMINER_LANGUAGE=python" >> ~/.bashr
 ```
 
 #### 2.2 Deploy ML Model
-Extract PerfAnnotator-mini model to all worker nodes:
+Copy model to master and then set ARCHIVE_PATH, Extract PerfAnnotator-mini model to all worker nodes:
 
 ```bash
 # Extract perfannotator model from NFS to all nodes
