@@ -61,7 +61,7 @@ bash check_node_status.sh
 ```
 
 If all hostnames return successfully, proceed. If it fails with permission denied, restart all nodes on the portal.
-Next, next follow nfs setup to make sure storage available before proceeding.
+Next, next follow nfs setup section below to make sure storage available before proceeding.
 
 ---
 
