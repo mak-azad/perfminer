@@ -60,7 +60,7 @@ Run a quick check:
 bash check_node_status.sh
 ```
 
-If all hostnames return successfully, proceed.
+If all hostnames return successfully, proceed. If it fails with permission denied, restart all nodes on the portal.
 
 ---
 
