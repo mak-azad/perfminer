@@ -33,7 +33,7 @@ This guide documents the **end-to-end process** for preparing a CloudLab cluster
 
 2. Run the **server setup script**:
    ```bash
-   bash master.sh
+   bash setup_master.sh
    ```
 
 ---
