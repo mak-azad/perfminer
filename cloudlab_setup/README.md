@@ -298,7 +298,7 @@ SERVER_IP=155.98.38.80
 ```
 ### 2) Fan-out mount to clients (longer timeout & gentle listing)
 ```parallel-ssh -t 600 -h sshhosts -i \
-  "sudo mkdir -p /nfs && \
+ parallel-ssh -h sshhosts -i  "sudo mkdir -p /nfs && \
    (mountpoint -q /nfs || sudo mount -t nfs -o vers=3,nolock ${SERVER_IP}:/nfs /nfs) && \
    ls -lh /nfs | head || echo 'MOUNT_FAILED'"
 ```
