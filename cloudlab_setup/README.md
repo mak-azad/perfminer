@@ -67,6 +67,8 @@ Next, next follow nfs Multi-node setup section below to make sure storage availa
 
 ## 🧬 Step 5. Clone Repo to All Clients
 
+Update the sshhosts (updated in earlier step) to the repo (commit changes and push to remote)
+
 Distribute PerfMiner to all client nodes:
 ```bash
 parallel-ssh -i -h sshhosts 'git clone https://github.com/mak-azad/perfminer.git'
