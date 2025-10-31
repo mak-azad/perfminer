@@ -304,6 +304,11 @@ SERVER_IP=155.98.38.80
    (mountpoint -q /nfs || sudo mount -t nfs -o vers=3,nolock ${SERVER_IP}:/nfs /nfs) && \
    ls -lh /nfs | head || echo 'MOUNT_FAILED'"
 ```
+### Sanity check
+```
+parallel-ssh -h sshhosts -i "test -e /nfs/perfannotator-mini.tgz && echo OK || echo MISSING"
+parallel-ssh -h sshhosts -i "ls" # to check model is in home directory
+```
 ---
 
 ## 4. Health Checks
@@ -332,7 +337,4 @@ ls -lh /nfs | head
 ```
 
 
-
-### Can they see a known file (if present)?
-parallel-ssh -h sshhosts -i "test -e /nfs/perfannotator-mini.tgz && echo OK || echo MISSING"
 ---
